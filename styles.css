@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f0f0;
+}
+
+.home-page, .birthday-page {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.home-page {
+    display: flex;
+    background-color: #ffe6e6;
+}
+
+.love-icon {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.birthday-page {
+    background-color: #f9f0f0;
+    background-image: url('rose-border.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.center-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.center-image {
+    width: 300px;
+    height: auto;
+    margin: 20px 0;
+    position: relative;
+    z-index: 1;
+}
+
+
+.text-left {
+    left: 5%;
+    text-align: left;
+}
+
+.text-right {
+    right: 5%;
+    text-align: right;
+}
+
+h1 {
+    font-family: "Algerian", serif;
+    color: #d12d2d;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #444;
+}
+#playButton {
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.play-button {
+    top: 50px;
+    z-index: 2;
+
+}
